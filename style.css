@@ -1,15 +1,52 @@
-body {
-    background-color: rgb(219, 117, 182);
+{
+box-sizing: border-box;
 }
-body {
+
+body{
+background-image: url("https://www.freepik.com/free-photo/vivid-blurred-colorful-wallpaper-background_17490754.htm#fromView=search&page=1&position=0&uuid=f6bcf1aa-722b-4cd8-8e67-b593d3507571&query=fond+dégradé+rose+orange");
+background-size:cover;
 }
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+ul{
+    padding-left: 0;
+    list-style: none;
+}
+
+.card{
+    background-color:rgb(247, 177, 228);
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 0px 10px black;
+    border: 2px solid rgb(0, 0, 0);
+    backdrop-filter: blur(40px);
+}
+
+body {
+    background-color: rgb(228, 105, 183);
+    text-align: center;
+}
+
+#avatar{
+    background-color: rgb(232, 81, 219);
+    border-radius: 300px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 6px solid rgb(0, 0, 0)
+}
+
 h2, H1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color:rgb(168, 236, 233);
+    color:rgb(11, 15, 15);
 }
     
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color:rgb(168, 236, 233);
+    color:rgb(0, 0, 0);
     font-weight: lighter;
 }
